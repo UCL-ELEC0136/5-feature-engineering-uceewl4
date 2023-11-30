@@ -57,3 +57,4 @@ def evaluate(model, X_train, y_train, X_test, y_test):
 
     print(f"Score on training set: {100*model.score(X_train_tmp, y_train_tmp):.2f}%")
     print(f"Score on test set: {100*model.score(X_test_tmp, y_test_tmp):.2f}%")
+    # model.score can directly give the mean accuracy without prediction
